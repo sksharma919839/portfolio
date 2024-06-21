@@ -7,7 +7,7 @@ import { RiMenu2Line } from "react-icons/ri";
 const navbarItem = [
   {
     id: 1,
-    link: "/",
+    link: "/portfolio",
     name: "Home",
   },
   {

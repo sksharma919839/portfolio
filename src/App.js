@@ -8,7 +8,7 @@ import Contactme from "./Page/Contactme";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/portfolio",
       element: <Home />,
     },
     {

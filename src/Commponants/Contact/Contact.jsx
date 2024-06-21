@@ -30,19 +30,25 @@ function Contact() {
               </p>
             </div>
             <div className="flex my-[25px]">
-              <Link to="/">
+              <Link
+                to="https://www.linkedin.com/in/sunil-sharma-313a31217/"
+                target="_blank"
+              >
                 <FaLinkedin
                   size={30}
                   className="text-[#757575] mx-[10px] mt-3 hover:mt-2 hover:text-[#0A66C2] transition-all duration-700"
                 />
               </Link>
-              <Link to="/">
+              <Link
+                to="https://www.instagram.com/sk_sharma_75/"
+                target="_blank"
+              >
                 <AiFillInstagram
                   size={30}
                   className="text-[#757575] mt-3 hover:mt-2 hover:text-[#FC045B] mx-[5px]  transition-all duration-700"
                 />
               </Link>
-              <Link to="/">
+              <Link to="https://wa.me/qr/SCCVDYWT7ZU6O1" target="_blank">
                 <IoLogoWhatsapp
                   size={30}
                   className="text-[#757575] mt-3 hover:mt-2 hover:text-[#0CC042] mx-[10px] transition-all duration-700"
