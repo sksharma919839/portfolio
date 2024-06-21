@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b626af2e.css",
+    "main.js": "/portfolio/static/js/main.8a5f26e2.js",
+    "static/js/453.04ec5b8f.chunk.js": "/portfolio/static/js/453.04ec5b8f.chunk.js",
+    "static/media/work-2.png": "/portfolio/static/media/work-2.94e49823c576f1ae47ea.png",
+    "static/media/hero.png": "/portfolio/static/media/hero.fb375537f9f7d97f3636.png",
+    "static/media/Logo.png": "/portfolio/static/media/Logo.34126d1a8f5d39290703.png",
+    "static/media/userr.jpeg": "/portfolio/static/media/userr.fe89749d6249be269b34.jpeg",
+    "static/media/work-1.jpg": "/portfolio/static/media/work-1.af30c84e1680b61543ab.jpg",
+    "static/media/SUNILSHARMA.pdf": "/portfolio/static/media/SUNILSHARMA.408b8c2fa3b0eb134ff3.pdf",
+    "static/media/work-3.png": "/portfolio/static/media/work-3.93e2cdb037ecc944fafd.png",
+    "index.html": "/portfolio/index.html",
+    "main.b626af2e.css.map": "/portfolio/static/css/main.b626af2e.css.map",
+    "main.8a5f26e2.js.map": "/portfolio/static/js/main.8a5f26e2.js.map",
+    "453.04ec5b8f.chunk.js.map": "/portfolio/static/js/453.04ec5b8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b626af2e.css",
+    "static/js/main.8a5f26e2.js"
+  ]
+}
