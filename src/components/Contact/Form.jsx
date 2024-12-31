@@ -21,7 +21,7 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://omhardik89.pythonanywhere.com/contact/",
+        "https://omhardik89.pythonanywhere.com/contact/",
         data
       );
       console.log("Response:", response.data);
