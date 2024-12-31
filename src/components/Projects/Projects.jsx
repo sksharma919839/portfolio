@@ -10,7 +10,7 @@ function Projects() {
 
   useEffect(() => {
     axios
-      .get("http://omhardik89.pythonanywhere.com/projecthome/")
+      .get("https://omhardik89.pythonanywhere.com/projecthome/")
       .then((response) => {
         setData(response.data);
       })
