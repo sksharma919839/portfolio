@@ -9,7 +9,7 @@ function Projectpage() {
 
   useEffect(() => {
     axios
-      .get("http://omhardik89.pythonanywhere.com/project/")
+      .get("https://omhardik89.pythonanywhere.com/project/")
       .then((response) => {
         setData(response.data);
       })
