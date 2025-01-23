@@ -23,7 +23,7 @@ function Cv() {
           to={item.pdf}
           download=""
           target="_blank"
-          className="text-[1.2rem] rounded-3xl text-[#ca4949] py-[11px] px-[28px] bg-transparent border border-[#ca4949] hover:bg-[#ca4949] hover:text-[#ffffff] transition-all duration-700"
+          className="text-[1.2rem] rounded-3xl text-[#e7b169] py-[11px] px-[28px] bg-transparent border border-[#e7b169] hover:bg-[#e7b169] hover:text-[#ffffff] transition-all duration-700"
         >
           Resume
         </Link>
