@@ -3,19 +3,21 @@ import { Link } from "react-router-dom";
 import { FaLink } from "react-icons/fa";
 import axios from "axios";
 
-
-
 function Projects() {
+  const [visibleItems, setVisibleItems] = useState(3);
+  const handleSeeMore = () => {
+    setVisibleItems((prevVisibleItems) => prevVisibleItems + 3);
+  };
   const [data, setData] = useState([]);
 
   useEffect(() => {
     axios
-      .get("https://omhardik89.pythonanywhere.com/projecthome/")
+      .get("https://omhardik89.pythonanywhere.com/project/")
       .then((response) => {
         setData(response.data);
       })
-      .catch((err) => {
-        console.log(err);
+      .catch((error) => {
+        console.log("Error :", error);
       });
   }, []);
   return (
@@ -25,7 +27,7 @@ function Projects() {
           <h1 className="text-[#ffffff] text-[60px] mb-[50px]">My Work</h1>
         </div>
         <div className="flex items-center justify-evenly flex-wrap">
-          {data.map((item) => (
+          {data.slice(0, visibleItems).map((item, index) => (
             <div
               key={item.id}
               className="mx-[15px] work sm:h-[400px] my-[30px] flex-wrap rounded-xl overflow-hidden sm:w-[350px] relative w-[290px] h-[360px] "
@@ -52,12 +54,9 @@ function Projects() {
           ))}
         </div>
         <div className="my-[40px] flex items-center justify-center">
-          <Link
-            to="/project"
-            className="text-[18px] text-[#ca4949] transition-all  duration-1000 border border-[#ca4949] px-[30px] py-[15px] rounded-full hover:bg-[#ca4949] hover:text-[#ffffff]"
-          >
-            See More
-          </Link>
+          {visibleItems < data.length && (
+            <button onClick={handleSeeMore} className="text-[18px] text-[#e7b169] transition-all  duration-1000 border border-[#e7b169] px-[30px] py-[15px] rounded-full hover:bg-[#e7b169] hover:text-[#ffffff]">See More</button>
+          )}
         </div>
       </div>
     </>
