@@ -23,7 +23,7 @@ function Resume() {
           to={item.pdf}
           download=""
           target="_blank"
-          className="text-[18px] text-[#ffffff] transition-all duration-700 bg-[#ca4949] border border-[#ca4949] hover:text-[#ca4949 ] px-[50px] py-[14px]  rounded-xl hover:bg-transparent"
+          className="text-[18px] text-[#ffffff] transition-all duration-700 bg-[#e7b169] border border-[#e7b169] hover:text-[#e7b169 ] px-[50px] py-[14px]  rounded-xl hover:bg-transparent"
         >
           Download CV
         </Link>
