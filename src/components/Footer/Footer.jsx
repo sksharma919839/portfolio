@@ -5,7 +5,7 @@ function Footer() {
     <>
       <div>
         <p className="bg-[#262626] text-center text-[16px] text-[#ffffff] py-[20px]">
-          Copyright © Sunil Portfolio
+          Copyright © <span className="text-[#e7b169]"> Sunil Portfolio </span>
         </p>
       </div>
     </>
