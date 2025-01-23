@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   content: "";
   width: 0;
   height: 3px;
-  background: #ca4949;
+  background: #e7b169;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
   content: "";
   width: 0;
   height: 3px;
-  background: #ca4949;
+  background: #e7b169;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
   content: "";
   width: 0;
   height: 3px;
-  background: #ca4949;
+  background: #e7b169;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -102,7 +102,7 @@ body::-webkit-scrollbar {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ca4949);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #e7b169);
   border-radius: 10px;
   position: absolute;
   left: 0;
