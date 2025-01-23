@@ -14,7 +14,7 @@ function Aboutcourse() {
               <button
                 className={
                   activeTab === 0
-                    ? "sm:text-[18px] text-[16px] text-[#ca4949] about-btn transition-all duration-300 relative tab-li tab-on"
+                    ? "sm:text-[18px] text-[16px] text-[#e7b169] about-btn transition-all duration-300 relative tab-li tab-on"
                     : "sm:text-[18px] text-[16px] text-[#ffffff] transition-all duration-300 relative tab-li"
                 }
                 onClick={() => onClick(0)}
@@ -26,7 +26,7 @@ function Aboutcourse() {
               <button
                 className={
                   activeTab === 1
-                    ? "sm:text-[18px] text-[16px] text-[#ca4949] about-btn transition-all duration-300 relative tab-li tab-on"
+                    ? "sm:text-[18px] text-[16px] text-[#e7b169] about-btn transition-all duration-300 relative tab-li tab-on"
                     : "sm:text-[18px] text-[16px] text-[#ffffff] transition-all duration-300 relative tab-li"
                 }
                 onClick={() => onClick(1)}
@@ -38,7 +38,7 @@ function Aboutcourse() {
               <button
                 className={
                   activeTab === 2
-                    ? "sm:text-[18px] text-[16px] text-[#ca4949] about-btn transition-all duration-300 relative tab-li tab-on"
+                    ? "sm:text-[18px] text-[16px] text-[#e7b169] about-btn transition-all duration-300 relative tab-li tab-on"
                     : "sm:text-[18px] text-[16px] text-[#ffffff] transition-all duration-300 relative tab-li"
                 }
                 onClick={() => onClick(2)}
@@ -50,7 +50,7 @@ function Aboutcourse() {
               <button
                 className={
                   activeTab === 3
-                    ? "sm:text-[18px] text-[16px] text-[#ca4949] about-btn transition-all duration-300 relative tab-li tab-on"
+                    ? "sm:text-[18px] text-[16px] text-[#e7b169] about-btn transition-all duration-300 relative tab-li tab-on"
                     : "sm:text-[18px] text-[16px] text-[#ffffff] transition-all duration-300 relative tab-li"
                 }
                 onClick={() => onClick(3)}
@@ -62,7 +62,7 @@ function Aboutcourse() {
               <button
                 className={
                   activeTab === 4
-                    ? "sm:text-[18px] text-[16px] text-[#ca4949] about-btn transition-all duration-300 relative tab-li tab-on"
+                    ? "sm:text-[18px] text-[16px] text-[#e7b169] about-btn transition-all duration-300 relative tab-li tab-on"
                     : "sm:text-[18px] text-[16px] text-[#ffffff] transition-all duration-300 relative tab-li"
                 }
                 onClick={() => onClick(4)}
@@ -76,13 +76,13 @@ function Aboutcourse() {
           {activeTab === 0 && (
             <div>
               <div className="my-[20px]">
-                <p className="text-[#ca4949] text-[14px]">Web Design</p>
+                <p className="text-[#e7b169] text-[14px]">Web Design</p>
                 <h6 className="text-[16px] text-[#ffffff]">
                   Designing Web Interface
                 </h6>
               </div>
               <div>
-                <p className="text-[#ca4949] text-[14px]">Web Development</p>
+                <p className="text-[#e7b169] text-[14px]">Web Development</p>
                 <h6 className="text-[16px] text-[#ffffff]">
                   Web App Devlopment
                 </h6>
@@ -92,19 +92,19 @@ function Aboutcourse() {
           {activeTab === 1 && (
             <div>
               <div className="mt-[20px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">
                   Web Devlopment From Samyak Computer Classes
                 </h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2022</p>
+                <p className="text-[#e7b169] text-[14px]">2022</p>
                 <h6 className="text-[16px] text-[#ffffff]">
                   12th From RBSE Ajmer
                 </h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2020</p>
+                <p className="text-[#e7b169] text-[14px]">2020</p>
                 <h6 className="text-[16px] text-[#ffffff]">
                   10th From RBSE Ajmer
                 </h6>
@@ -114,23 +114,23 @@ function Aboutcourse() {
           {activeTab === 2 && (
             <div>
               <div className="mt-[20px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">React JS</h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">Javascript</h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">CSS</h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">HTML</h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">TailwindCSS</h6>
               </div>
             </div>
@@ -138,11 +138,11 @@ function Aboutcourse() {
           {activeTab === 3 && (
             <div>
               <div className="mt-[20px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">Python</h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">Django</h6>
               </div>
             </div>
@@ -150,11 +150,11 @@ function Aboutcourse() {
           {activeTab === 4 && (
             <div>
               <div className="mt-[20px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">MongoDB</h6>
               </div>
               <div className="my-[10px]">
-                <p className="text-[#ca4949] text-[14px]">2024</p>
+                <p className="text-[#e7b169] text-[14px]">2024</p>
                 <h6 className="text-[16px] text-[#ffffff]">PostGreSQL</h6>
               </div>
             </div>
