@@ -38,7 +38,7 @@ function Navbar() {
         <div>
           <Link to="/" className="flex items-center">
             <img src={logo} className="w-[45px]" />
-            <h1 className="text-[32px] transition-all duration-300 hover:text-[#ca4949]">
+            <h1 className="text-[32px] transition-all duration-300 hover:text-[#e7b169]">
               Sunil Sharma
             </h1>
           </Link>
@@ -50,8 +50,8 @@ function Navbar() {
                 to={link.link}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#ca4949] mx-[10px] px-[2px] text-[18px] transition-all duration-300 hover:text-[#ca4949] pb-[5]px] relative navbar-li"
-                    : "text-[#ffffff] mx-[10px] px-[2px] text-[18px] transition-all duration-300 hover:text-[#ca4949] pb-[5]px] relative navbar-li"
+                    ? "text-[#e7b169] mx-[10px] px-[2px] text-[18px] transition-all duration-300 hover:text-[#e7b169] pb-[5]px] relative navbar-li"
+                    : "text-[#ffffff] mx-[10px] px-[2px] text-[18px] transition-all duration-300 hover:text-[#e7b169] pb-[5]px] relative navbar-li"
                 }
               >
                 {link.name}
@@ -79,8 +79,8 @@ function Navbar() {
                   to={items.link}
                   className={({ isActive }) =>
                     `${isActive
-                      ? "text-[1.2rem] text-[#ca4949] relative duration-1000 transition-all hover:text-[#ca4949] mx-[10px] navbar-li text-center "
-                      : "text-[1.2rem] text-[#ffffff] relative duration-1000 transition-all hover:text-[#ca4949] mx-[10px] navbar-li text-center"
+                      ? "text-[1.2rem] text-[#e7b169] relative duration-1000 transition-all hover:text-[#e7b169] mx-[10px] navbar-li text-center "
+                      : "text-[1.2rem] text-[#ffffff] relative duration-1000 transition-all hover:text-[#e7b169] mx-[10px] navbar-li text-center"
                     }`
                   }
                 >
