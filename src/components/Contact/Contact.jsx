@@ -18,19 +18,19 @@ function Contact() {
               Contact Me
             </h2>
             <div className="flex items-center my-[25px]">
-              <IoIosMail className="text-[#ca4949]" size={30} />
+              <IoIosMail className="text-[#e7b169]" size={30} />
               <a
                 href="mailto:sksharma919839@gmail.com"
-                className="text-[#ffffff] text-[16px] mx-[10px]  transition-all  duration-300 hover:text-[#ca4949]"
+                className="text-[#ffffff] text-[16px] mx-[10px]  transition-all  duration-300 hover:text-[#e7b169]"
               >
                 sksharma919839@gmail.com
               </a>
             </div>
             <div className="flex items-center">
-              <FaPhoneAlt size={25} className="text-[#ca4949]" />
+              <FaPhoneAlt size={25} className="text-[#e7b169]" />
               <a
                 href="tel:+919166985539"
-                className="text-[#ffffff]  text-[16px] mx-[10px]  transition-all  duration-300 hover:text-[#ca4949]"
+                className="text-[#ffffff]  text-[16px] mx-[10px]  transition-all  duration-300 hover:text-[#e7b169]"
               >
                 (+91) 9166985539
               </a>
@@ -51,13 +51,13 @@ function Contact() {
               >
                 <AiFillInstagram
                   size={30}
-                  className="text-[#757575] mt-3 hover:mt-2 hover:text-[#ca4949] mx-[5px]  transition-all duration-700"
+                  className="text-[#757575] mt-3 hover:mt-2 hover:text-[#e7b169] mx-[5px]  transition-all duration-700"
                 />
               </Link>
               <Link to="https://wa.me/qr/SCCVDYWT7ZU6O1" target="_blank">
                 <IoLogoWhatsapp
                   size={30}
-                  className="text-[#757575] mt-3 hover:mt-2 hover:text-[#ca4949] mx-[10px] transition-all duration-700"
+                  className="text-[#757575] mt-3 hover:mt-2 hover:text-[#e7b169] mx-[10px] transition-all duration-700"
                 />
               </Link>
             </div>
