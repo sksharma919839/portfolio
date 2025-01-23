@@ -82,14 +82,14 @@ const ContactForm = () => {
         </label>
         <button
           type="submit"
-          className="text-[18px] text-[#ffffff] transition-all duration-700 bg-[#ca4949] border border-[#ca4949] hover:text-[#ca4949] px-[50px] py-[14px] mt-[10px] mb-[60px]  rounded-xl hover:bg-transparent"
+          className="text-[18px] text-[#ffffff] transition-all duration-700 bg-[#e7b169] border border-[#e7b169] hover:text-[#e7b169] px-[50px] py-[14px] mt-[10px] mb-[60px]  rounded-xl hover:bg-transparent"
         >
           Submit
         </button>
       </form>
       <div>
         {message && (
-          <p className="w-[250px] py-[20px] px-[10px] top-[30px] right-[20px] bg-[#ca4949]  rounded-lg fixed z-[11]">
+          <p className="w-[250px] py-[20px] px-[10px] top-[30px] right-[20px] bg-[#e7b169]  rounded-lg fixed z-[11]">
             {message}
             <br /> I have Contact soon.
           </p>
