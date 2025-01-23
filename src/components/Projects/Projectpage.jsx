@@ -35,14 +35,14 @@ function Projectpage() {
                 alt=""
               />
               <div className="layer">
-                <h3 className="font-medium mb-[20px] text-[#ca4949] text-[24px]">
+                <h3 className="font-medium mb-[20px] text-[#e7b169] text-[24px]">
                   {item.h}
                 </h3>
                 <p className="text-[16px] text-[#ffffff]">{item.p}</p>
                 <Link
                   to={item.link}
                   target="_blank"
-                  className="mt-[20px] text-[#ca4949] text-[18px] leading-[60px] bg-[#ffffff] w-[60px] h-[60px] rounded-[50%] flex items-center justify-center"
+                  className="mt-[20px] text-[#e7b169] text-[18px] leading-[60px] bg-[#ffffff] w-[60px] h-[60px] rounded-[50%] flex items-center justify-center"
                 >
                   <FaLink />
                 </Link>
