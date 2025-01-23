@@ -40,7 +40,7 @@ function Header() {
               <Link
                 to={icon.link}
                 target="_blank"
-                className="transition-all duration-300 hover:text-[#ca4949]"
+                className="transition-all duration-300 hover:text-[#e7b169]"
               >
                 {icon.icon}
               </Link>
@@ -50,7 +50,7 @@ function Header() {
         <div>
           <Link
             to="mailto:sksharma919839@gmail.com"
-            className=" transition-all duration-300 hover:text-[#ca4949] sm:text-[18px] text-[13px]"
+            className=" transition-all duration-300 hover:text-[#e7b169] sm:text-[18px] text-[13px]"
           >
             sksharma919839@gmail.com
           </Link>
