@@ -17,7 +17,7 @@ function Main() {
               <ReactTyped
                 strings={["Sunil"]}
                 typeSpeed={1}
-                className="text-[#ca4949]"
+                className="text-[#e7b169]"
               />
             </h3>
             <h3 className="text-[#ffffff] text-[48px]">I am a Passionate</h3>
@@ -29,14 +29,14 @@ function Main() {
                   "Full Stack Web Developer",
                 ]}
                 typeSpeed={100}
-                className="text-[#ca4949] text-[48px]"
+                className="text-[#e7b169] text-[48px]"
               />
             </h1>
             <div className="mt-[30px]">
               <Cv />
               <Link
                 to="/contact"
-                className="text-[1.2rem] mx-[20px] border border-[#ca4949] rounded-3xl text-[#ffffff] py-[11px] px-[28px] bg-[#ca4949] hover:bg-transparent hover:text-[#ca4949] transition-all duration-700"
+                className="text-[1.2rem] mx-[20px] border border-[#e7b169] rounded-3xl text-[#ffffff] py-[11px] px-[28px] bg-[#e7b169] hover:bg-transparent hover:text-[#e7b169] transition-all duration-700"
               >
                 Contact
               </Link>
