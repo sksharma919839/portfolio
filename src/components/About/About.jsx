@@ -44,7 +44,7 @@ function About() {
                   "Full Stack Web Developer",
                 ]}
                 typeSpeed={100}
-                className="text-[#ca4949] text-[18px]"
+                className="text-[#e7b169] text-[18px]"
               />
             </p>
             <div>
