@@ -27,7 +27,7 @@ function Projects() {
           <h1 className="text-[#ffffff] text-[60px] mb-[50px]">My Work</h1>
         </div>
         <div className="flex items-center justify-evenly flex-wrap">
-          {data.slice(0, visibleItems).reverse().map((item, index) => (
+          {data.reverse().slice(0, visibleItems).map((item, index) => (
             <div
               key={item.id}
               className="mx-[15px] work sm:h-[400px] my-[30px] flex-wrap rounded-xl overflow-hidden sm:w-[350px] relative w-[290px] h-[360px] "
