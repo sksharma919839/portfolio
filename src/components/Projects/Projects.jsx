@@ -5,21 +5,65 @@ import axios from "axios";
 
 function Projects() {
   const [visibleItems, setVisibleItems] = useState(3);
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await axios.get("https://omhardik89.pythonanywhere.com/project/");
+        setData(response.data);
+      } catch (err) {
+        console.error("Error:", err);
+        setError("Failed to load projects. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProjects();
+  }, []);
+
   const handleSeeMore = () => {
     setVisibleItems((prevVisibleItems) => prevVisibleItems + 3);
   };
-  const [data, setData] = useState([]);
+  if (loading) {
+    return (
+      <>
+        <div>
+          <div>
+            <h1>My Work</h1>
+          </div>
+          <div style={{ textAlign: 'center', padding: '50px' }}>
+            <p>Loading projects...</p>
+          </div>
+        </div>
+      </>
+    );
+  }
 
-  useEffect(() => {
-    axios
-      .get("https://omhardik89.pythonanywhere.com/project/")
-      .then((response) => {
-        setData(response.data);
-      })
-      .catch((error) => {
-        console.log("Error :", error);
-      });
-  }, []);
+  if (error) {
+    return (
+      <>
+        <div>
+          <div>
+            <h1>My Work</h1>
+          </div>
+          <div style={{ textAlign: 'center', padding: '50px' }}>
+            <p style={{ color: 'red' }}>{error}</p>
+          </div>
+        </div>
+      </>
+    );
+  }
+
+  const displayedProjects = [...data].reverse().slice(0, visibleItems);
+
+
+
   return (
     <>
       <div className="my-[40px]" data-aos="fade-up">
@@ -27,7 +71,7 @@ function Projects() {
           <h1 className="text-[#ffffff] text-[60px] mb-[50px]">My Work</h1>
         </div>
         <div className="flex items-center justify-evenly flex-wrap">
-          {data.reverse().slice(0, visibleItems).map((item, index) => (
+          {displayedProjects.map((item, index) => (
             <div
               key={item.id}
               className="mx-[15px] work sm:h-[400px] my-[30px] flex-wrap rounded-xl overflow-hidden sm:w-[350px] relative w-[290px] h-[360px] "
